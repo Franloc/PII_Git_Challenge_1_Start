@@ -24,3 +24,4 @@ public class Multiplicacion
        return a * b;
    }
 }
+}
