@@ -8,11 +8,19 @@
         Console.WriteLine(Division.Dividir(7, 8));
     }
 
-    public class Division
-  {
-     public static double Divide(int a, int b)
-     {
-         return (double)a / b;
-     }
-  }
+public class Division
+{
+    public static double Dividir(int a, int b)
+    {
+        return (double)a / b;
+    }
+}
+
+
+public class Multiplicacion
+{
+   public static int Multiplicar(int a, int b)
+   {
+       return a * b;
+   }
 }
