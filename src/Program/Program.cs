@@ -8,3 +8,11 @@
         Console.WriteLine(Division.Dividir(7, 8));
     }
 }
+
+public class Resta
+{
+   public static int Restar(int a, int b)
+   {
+       return a - b;
+   }
+}
