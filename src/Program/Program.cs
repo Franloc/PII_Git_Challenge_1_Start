@@ -7,4 +7,12 @@
         Console.WriteLine(Multiplicacion.Multiplicar(5, 6));
         Console.WriteLine(Division.Dividir(7, 8));
     }
+
+    public class Division
+  {
+     public static double Divide(int a, int b)
+     {
+         return (double)a / b;
+     }
+  }
 }
