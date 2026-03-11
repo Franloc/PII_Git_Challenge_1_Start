@@ -7,6 +7,13 @@
         Console.WriteLine(Multiplicacion.Multiplicar(5, 6));
         Console.WriteLine(Division.Dividir(7, 8));
     }
+public class Addition
+{
+   public static int Add(int a, int b)
+   {
+       return a + b;
+   }
+}
 
 public class Division
 {
