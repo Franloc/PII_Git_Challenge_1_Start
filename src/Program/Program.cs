@@ -10,7 +10,7 @@
 // Esta clase implementa la operación suma
 public class Addition
 {
-   public static int Add(int a, int b)
+   public static int Sumar(int a, int b)
    {
        return a + b;
    }
@@ -40,4 +40,5 @@ public class Resta
    {
        return a - b;
    }
+}
 }
