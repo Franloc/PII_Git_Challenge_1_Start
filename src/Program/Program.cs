@@ -20,7 +20,7 @@ public class Division
 {
     public static double Dividir(int a, int b)
     {
-        return (double)a / b;
+        return (double)0 / b;
     }
 }
 
