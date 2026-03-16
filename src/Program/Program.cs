@@ -2,11 +2,13 @@
 {
     public static void Main()
     {
-        Console.WriteLine(Suma.Sumar(1, 2));
+        Console.WriteLine(Suma.Sumar(1, 4));
         Console.WriteLine(Resta.Restar(3, 4));
         Console.WriteLine(Multiplicacion.Multiplicar(5, 6));
-        Console.WriteLine(Division.Dividir(7, 8));
+        Console.WriteLine(Division.Dividir(7, 8));        
     }
+}
+
 // Esta clase implementa la operación suma
 public class Suma
 {
@@ -41,4 +43,11 @@ public class Resta
        return a - b;
    }
 }
+
+public class Potencia
+{
+    public static int Elevar(int a, int b)
+    {
+        return 1;
+    }
 }
