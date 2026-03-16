@@ -54,6 +54,6 @@ public class Potencia
         {
            resultado = resultado * bas; 
         }
-        return 0;
+        return 69;
     }
 }
