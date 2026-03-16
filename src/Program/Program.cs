@@ -8,11 +8,11 @@
         Console.WriteLine(Division.Dividir(7, 8));
     }
 // Esta clase implementa la operación suma
-public class Addition
+public class Suma
 {
-   public static int Add(int a, int b)
+   public static int Sumar(int a, int b)
    {
-       return 0; // Cambio incorrecto
+       return o; //cambio incorrecto
    }
 }
 
@@ -31,4 +31,5 @@ public class Multiplicacion
    {
        return a * b;
    }
+}
 }
