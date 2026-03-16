@@ -7,6 +7,14 @@
         Console.WriteLine(Multiplicacion.Multiplicar(5, 6));
         Console.WriteLine(Division.Dividir(7, 8));
     }
+// Esta clase implementa la operación suma
+public class Suma
+{
+   public static int Sumar(int a, int b)
+   {
+       return a + b;
+   }
+}
 
 public class Division
 {
@@ -22,6 +30,15 @@ public class Multiplicacion
    public static int Multiplicar(int a, int b)
    {
        return a * b;
+   }
+}
+
+// Esta clase implementa la operación resta
+public class Resta
+{
+   public static int Restar(int a, int b)
+   {
+       return a - b;
    }
 }
 }
