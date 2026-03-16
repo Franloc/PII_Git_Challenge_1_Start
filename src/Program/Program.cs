@@ -5,7 +5,8 @@
         Console.WriteLine(Suma.Sumar(1, 4));
         Console.WriteLine(Resta.Restar(3, 4));
         Console.WriteLine(Multiplicacion.Multiplicar(5, 6));
-        Console.WriteLine(Division.Dividir(7, 8));        
+        Console.WriteLine(Division.Dividir(7, 8));
+        Console.WriteLine(Potencia.Elevar(2, 3));
     }
 }
 
@@ -46,8 +47,13 @@ public class Resta
 
 public class Potencia
 {
-    public static int Elevar(int a, int b)
+    public static int Elevar(int bas, int expo)
     {
-        return 1;
+        int resultado = 1;
+        for (int i= 1; i<=expo; i++)
+        {
+           resultado = resultado * bas; 
+        }
+        return resultado;
     }
 }
