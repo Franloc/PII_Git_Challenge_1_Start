@@ -2,6 +2,7 @@
 {
     public static void Main()
     {
+        Console.WriteLine("Demo calculadora");
         Console.WriteLine(Suma.Sumar(1, 2));
         Console.WriteLine(Resta.Restar(3, 4));
         Console.WriteLine(Multiplicacion.Multiplicar(5, 6));
@@ -41,12 +42,4 @@ public class Resta
        return a - b;
    }
 }
-}
-
-public class Power
-{
-    public static int Squared(int a)
-    {
-        return a * a;
-    }
 }
